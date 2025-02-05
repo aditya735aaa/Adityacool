@@ -1,0 +1,105 @@
+/* Header Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link.active {
+    color: #007bff;
+}
+.academic-image{
+    width: 100vw; /* Lebar penuh sesuai dengan viewport */
+    height: auto; /* Menyesuaikan tinggi agar proporsional */
+    display: block; /* Menghapus jarak bawah default pada gambar */
+    margin: 0; /* Menghapus margin default */
+    padding: 0; /* Menghapus padding default */
+    margin-top: 5px;
+}
+.heading-prodi {
+    font-size: 18px;
+    color:blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: left;
+    display: block;
+    margin-right: auto;
+}
+
+.description-prodi1 {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+    text-align: justify;
+    margin-top: 0; /* Tidak ada jarak tambahan ke atas */
+    margin-left:-12px;
+}
+
+.academik-page2{
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.line1 {
+    border: none; /* Menghilangkan border default */
+    height: 40px; /* Menentukan ketebalan garis */
+    background-color: black; /* Menentukan warna garis */
+    width: 30%; /* Menentukan lebar garis (sesuaikan dengan kebutuhan) */
+    font-weight: bold;  
+}
+
+/* Styling khusus untuk ul dengan class visi-list */
+.visi-list {
+    margin-top: 1rem;
+    padding-left: 1.5rem; /* Memberikan indentasi */
+    list-style-type: disc; /* Memberikan tanda bullet default */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.visi-list li {
+    margin-bottom: 0.5rem; /* Jarak antar item di dalam ul */
+}
+
+/* academik-page3 */
+.academik-page3 {
+    color: blue;
+    font-size: 20px;
+}
+
+.visi-list2 {
+    margin-top: 1rem;
+    padding-left: 1.5rem; /* Memberikan indentasi */
+    list-style-type: disc; /* Memberikan tanda bullet default */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.visi-list2 li {
+    margin-bottom: 0.5rem; /* Jarak antar item di dalam ul */
+}
+
+/* lama studi */
+.academik-page4 {
+    color: blue;
+    font-size: 20px;
+}
+
+.visi-list3 {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+    text-align: justify;
+    margin-top: 0; /* Tidak ada jarak tambahan ke atas */
+    margin-left: 0px;
+}
